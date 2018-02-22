@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/idFavorPerson"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/idBase1" />
+
+    <LinearLayout
+        android:id="@+id/idBase1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/idButBackMain"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/idNameSaveBD"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+
+        <Button
+            android:text="F"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickSaveBD" />
+    </LinearLayout>
+
+    <Button
+        android:textSize="25dp"
+        android:text="back"
+        android:id="@+id/idButBackMain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClickBackMain" />
+</RelativeLayout>

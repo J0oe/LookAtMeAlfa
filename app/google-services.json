@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "807461081284",
+    "firebase_url": "https://lookatme-bed2d.firebaseio.com",
+    "project_id": "lookatme-bed2d",
+    "storage_bucket": "lookatme-bed2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807461081284:android:b61c0203636aa641",
+        "android_client_info": {
+          "package_name": "com.ex.admin.lookatme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807461081284-5u1bc2oi2kv5t92p48ev15diuhca9lum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ex.admin.lookatme",
+            "certificate_hash": "8190f8232d16ccf87c0d7d19f933315dd9f57bce"
+          }
+        },
+        {
+          "client_id": "807461081284-m3ej6plej46k1qlnhe70pi2cjiklb9m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP9-QAvnd3QHP4JjRKHYThlKW65QpNNMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807461081284-m3ej6plej46k1qlnhe70pi2cjiklb9m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
